@@ -1,0 +1,10 @@
+tempo = distância / velocidade
+
+Para o carro:
+tempo = 50 km / 110 km/h = 0,45 horas = 27 minutos
+
+Para o caminhão:
+tempo = 50 km / 80 km/h + 2 x 5 minutos = 0,6875 horas = 41,25 minutos
+
+Portanto, quando se cruzarem na rodovia, o carro estará mais próximo da cidade de Ribeirão Preto, pois levou menos tempo para percorrer a distância.
+O caminhão perdeu tempo ao passar pelos pedágios, o que fez com que sua velocidade média diminuísse e demorasse mais tempo para percorrer a mesma distância.
