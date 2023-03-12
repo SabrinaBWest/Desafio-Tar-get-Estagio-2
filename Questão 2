@@ -1,0 +1,23 @@
+# Define o número a ser verificado
+numero = 13
+
+# Define os primeiros dois números da sequência
+num1, num2 = 0, 1
+
+# Define uma variável para verificar se o número foi encontrado na sequência
+encontrado = False
+
+# Enquanto o próximo número na sequência for menor ou igual ao número a ser verificado
+while num2 <= numero:
+    # Se o número atual é igual ao número a ser verificado, imprime a mensagem e define encontrado como True
+    if num2 == numero:
+        print(f"O número {numero} pertence à sequência de Fibonacci!")
+        encontrado = True
+        break
+    
+    # Se não, atualiza os valores dos números da sequência
+    num1, num2 = num2, num1 + num2
+
+# Se o número não foi encontrado na sequência, imprime a mensagem correspondente
+if not encontrado:
+    print(f"O número {numero} não pertence à sequência de Fibonacci.")
